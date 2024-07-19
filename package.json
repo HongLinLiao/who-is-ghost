@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "build": "tsc --project ./"
+    "build": "tsc --project ./",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "Leo Liao",
